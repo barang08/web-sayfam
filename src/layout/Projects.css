@@ -1,0 +1,43 @@
+.container {
+    width: 960px;
+}
+
+.project-container {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0 40px 40px;
+    justify-content: space-between;
+}
+
+.project-btn button {
+
+    border-radius: 15px;
+    padding: 8px 18px 9px 18px;
+}
+
+.project-btn {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-area {
+    display: flex;
+    gap: 75px;
+}
+
+.project-h2 {
+    color: #4731D3;
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 48px */
+    letter-spacing: 0.48px;
+}

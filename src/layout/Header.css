@@ -1,0 +1,254 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-color: blue;
+}
+
+.name-container {
+    width: 960px;
+    margin: 0 auto;
+    color: #CBF281;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 25px;
+
+
+
+}
+
+
+.header-container img {
+    width: 375px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 528px;
+    flex-wrap: wrap;
+
+}
+
+.left-container h2 {
+    color: #CBF281;
+
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+
+}
+
+.left-container p {
+    color: red;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+*/ #linkedin-btn {
+    display: flex;
+    padding: 12px 45px 12px 12px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+    border: 1px solid var(--default-indigo-800, #3730A3);
+    background: var(--default-white, #FFF);
+    border-radius: 15px;
+}
+
+#linkedin-btn img {
+    width: 25px;
+    height: 25px;
+}
+
+.btn-area {
+    display: flex;
+    gap: 25px;
+
+}
+
+/*
+
+.name-container {
+    color: #CBF281;
+    display: flex;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    margin: 37px 0 120px 0;
+
+}
+
+.me-container {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.container img {
+    width: 350px;
+    height: 375.885px;
+    flex-shrink: 0;
+    border-radius: 18px;
+}
+
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    height: 100%;
+
+}
+
+.space-container {
+    width: 83px;
+}
+
+.left-container h2 {
+    color: #CBF281;
+
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    align-self: stretch;
+    text-align: left;
+}
+
+.left-container .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 36px;
+    align-self: stretch
+}
+
+.left-container .text-container p {
+    width: 528.885px;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+
+
+}
+
+
+.linkedin-area img {
+
+    width: 24px;
+    height: 25px;
+    fill: #3730A3;
+    border-radius: 0%;
+    margin-right: 15px;
+}
+
+
+
+
+
+#linkedin-btn {
+
+    padding: 10px 20px 10px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--default-indigo-800, #3730A3);
+    background: var(--default-white, #FFF);
+    display: flex;
+    align-items: center;
+    color: var(--default-indigo-800, #3730A3);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+
+}
+
+.linkedin-area a {
+    text-decoration: none;
+}
+
+
+
+/* .text-container {
+    width: 530px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-container h2 {
+    color: #CBF281;
+    font-family: Inter;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: left;
+}
+
+.text-container p {
+    .text-container p {
+        color: black;
+        font-family: Inter;
+        width: 528.885px;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 24px;
+        text-align: left;
+    }
+}
+
+.text-container button {
+    display: flex;
+    padding: 12px 20px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} */

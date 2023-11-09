@@ -1,0 +1,142 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: purple
+}
+
+
+
+
+
+.skill img {
+    width: 160px;
+    height: 160px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+
+.skills-middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-end {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.skills-container {
+
+
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+/* .skill {
+    display: flex;
+    align-items: center;
+} */
+
+/* .skills {
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+
+/* .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+
+}
+
+.skill img {
+    width: 150px;
+    height: 150px;
+}
+ */
+
+
+
+/* .skills-container {
+    height: 610px;
+    width: 1621px;
+
+    position: relative;
+    top: 185px;
+}
+
+.skills-container h2 {
+    color: red;
+}
+
+.skills-text {
+    display: flex;
+    width: 960px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+} */
+
+/* #java-content {
+    width: 120px;
+    height: 120px;
+}
+
+#redux-content {
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+} */
+
+/* .logo-area1 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 290px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+}
+
+
+
+.logo-area1 p {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+} */
