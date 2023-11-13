@@ -6,6 +6,9 @@ import Profile from "./layout/Profile"
 import Projects from './layout/Projects';
 import Footer from './layout/Footer';
 
+import { createContext, useState } from 'react';
+import { createBrowserRouter } from 'react-router-dom';
+
 
 
 const user = {
@@ -13,15 +16,25 @@ const user = {
   surName: "GÜNEY"
 }
 
+export const ThemeContext = createContext(null)
+
 function App() {
+  const [theme, setTheme] = useState("dark")
+
+  const toogleTheme = () => {
+    setTheme((curr) => (curr === "light" ? "dark" : "light"))
+  }
 
   return (
 
     <div className="App">
-      <Header user={user} />
-      <Skills />
-      <Profile />
-      <Projects />
+      <ThemeContext.Provider value={{ theme, toogleTheme }}>
+        < Header user={user} />
+        <Skills />
+        <Profile />
+        <Projects />
+        <Footer />
+      </ThemeContext.Provider>
 
 
 

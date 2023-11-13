@@ -11,6 +11,25 @@ function Footer() {
             <div className="footer-container">
 
 
+                <p className="footer-message">Send me a message!</p>
+
+
+
+                <p className="footer-text">Got a question or proposal, or just want
+                    to say hello? Go ahead.</p>
+                <a href="#">baranguney081@gmail.com</a>
+                <div className="img-area">
+                    <img src={twitter} alt="#" />
+                    <img src={codepen} alt="#" />
+                    <img src={atsign} alt="#" />
+                    <img src={instagram} alt="#" />
+
+
+
+
+                </div>
+
+
             </div>
 
 
@@ -23,24 +42,3 @@ function Footer() {
 
 export default Footer;
 
-
-{/* <div className="footer-container">
-<div className="row asda">
-    <p >Send me a message!</p>
-</div>
-
-
-<p>Got a question or proposal, or just want
-    to say hello? Go ahead.</p>
-<span>baranguney081@gmail.com</span>
-<div className="img-area">
-    <img src={twitter} alt="#" />
-    <img src={codepen} alt="#" />
-    <img src={atsign} alt="#" />
-    <img src={instagram} alt="#" />
-
-
-
-
-</div>
-</div> */}

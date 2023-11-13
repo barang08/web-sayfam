@@ -4,6 +4,11 @@
 
 }
 
+
+.dark .header {
+    background-color: darkgray;
+}
+
 .header {
     background-color: blue;
 }
@@ -67,16 +72,20 @@
     line-height: normal;
 }
 
-*/ #linkedin-btn {
+
+
+#linkedin-btn a {
     display: flex;
-    padding: 12px 45px 12px 12px;
+
+    padding: 12px 30px 12px 12px;
     justify-content: center;
     align-items: center;
 
-    border-radius: 6px;
+
     border: 1px solid var(--default-indigo-800, #3730A3);
     background: var(--default-white, #FFF);
     border-radius: 15px;
+    text-decoration: none;
 }
 
 #linkedin-btn img {

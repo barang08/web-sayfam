@@ -1,7 +1,7 @@
 .container {
     width: 960px;
     margin: 0 auto;
-    background-color: purple
+
 }
 
 
@@ -16,17 +16,31 @@
 .skill {
     display: flex;
     align-items: center;
+    column-gap: 24px;
 }
 
 
 .skills-middle {
     display: flex;
     flex-direction: column;
+    gap: 35px;
+}
+
+.skills-middle img {
+    width: 120px;
+    height: 120px;
 }
 
 .skills-end {
     display: flex;
     flex-direction: column;
+    gap: 35px;
+
+}
+
+.skills-end img {
+    width: 120px;
+    height: 120px;
 
 }
 
@@ -40,10 +54,21 @@
 .skills-container {
 
 
-    background-color: blanchedalmond;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+}
+
+.skills-container h2 {
+    margin: 0;
+    color: #4832D3;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 
 /* .skill {

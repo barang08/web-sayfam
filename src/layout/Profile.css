@@ -15,6 +15,10 @@
     letter-spacing: 0.48px;
 }
 
+.profile-containerarea {
+    background: #4731D3;
+}
+
 .profile-container {
     display: flex;
 
