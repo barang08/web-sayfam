@@ -57,7 +57,7 @@
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 50px;
 }
 
 .skills-container h2 {

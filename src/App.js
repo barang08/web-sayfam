@@ -5,9 +5,12 @@ import Skills from './layout/Skills';
 import Profile from "./layout/Profile"
 import Projects from './layout/Projects';
 import Footer from './layout/Footer';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import { createContext, useState } from 'react';
 import { createBrowserRouter } from 'react-router-dom';
+import ReactSwitch from 'react-switch';
 
 
 
@@ -29,7 +32,10 @@ function App() {
 
     <div className="App">
       <ThemeContext.Provider value={{ theme, toogleTheme }}>
+
+
         < Header user={user} />
+
         <Skills />
         <Profile />
         <Projects />

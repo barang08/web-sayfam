@@ -9,9 +9,30 @@
     background-color: darkgray;
 }
 
-.header {
-    background-color: blue;
+
+
+
+.switch {
+    display: flex;
+    column-gap: 10px;
+    justify-content: flex-end;
+
 }
+
+.dügme {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+
+
+    border-radius: 14px;
+    transition: opacity 0.25s ease 0s;
+    touch-action: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    user-select: none;
+    margin-top: 10px;
+}
+
 
 .name-container {
     width: 960px;
@@ -93,10 +114,23 @@
     height: 25px;
 }
 
-.btn-area {
+.btns-area {
     display: flex;
     gap: 25px;
 
+}
+
+.btns-area button {
+    display: flex;
+    padding: 12px 20px 12px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+
+    border-radius: 6px;
+    border: 1px solid var(--default-indigo-800, #3730A3);
+    background: var(--default-white, #FFF);
 }
 
 /*
