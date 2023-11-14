@@ -6,6 +6,9 @@ import LinkedInBtn from "../components/Linkedinbtn";
 import Githubbtn from "../components/Githubbtn"
 import { ThemeContext } from "../App";
 import ReactSwitch from 'react-switch';
+import { LanguageContext } from '../contexts/LanguageContext';
+
+
 
 
 
@@ -17,20 +20,29 @@ import ReactSwitch from 'react-switch';
 function Header(props) {
     const { theme, toggletheme } = useContext(ThemeContext)
 
+    const { toggleLanguage, texts } = useContext(LanguageContext);
 
+    const headerStyle = {
+        background: theme === 'dark' ?
+            'linear-gradient(to right, #171043 70%, #1A210B 30%)' :
+            'linear-gradient(to right, #4731D3 65%, #CBF281 35%)'
+    }
 
     const getFullName = () => {
         const fullName = props.user.name + " " + props.user.surName
         return fullName
     }
     return (
-        <div className="header">
+
+        <div className="header" style={headerStyle}>
             <div className=' container switch '>
+                <button onClick={toggleLanguage}>Türkçeye geç</button>
                 <ReactSwitch className="dügme" onChange={toggletheme} checked={theme === "dark"} />
                 <p>DARK MODE</p>
+
             </div>
-            <div className="blue-container"></div>
-            <div className="green-container"></div>
+
+
 
             <div className="name-container">
                 {getFullName()}
@@ -53,7 +65,6 @@ function Header(props) {
 
 
         </div>
-
 
     )
 }

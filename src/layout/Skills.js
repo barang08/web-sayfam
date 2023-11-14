@@ -7,19 +7,25 @@ import nodejs from "../images/skills/node-logo 1.png"
 import vscode from "../images/skills/Group 101 (1).png"
 import figma from "../images/skills/figma-logo 1.png"
 
+
 import { ThemeContext } from "../App";
 import { useContext } from "react";
 
 
 
-
 function Skills() {
     const { theme } = useContext(ThemeContext)
+    const skillsStyle = {
+        background: theme === 'dark' ? ' blue' : 'white ',
+    }
+
+
+
     return (
-        <div className="skills">
+        <div className="skills" >
 
 
-            <div className="container ">
+            <div className="container " >
 
 
                 <div className="skills-container">

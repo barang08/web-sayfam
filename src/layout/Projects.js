@@ -22,43 +22,46 @@ function Projects() {
     }, []);
 
     return (
-        <div className="container">
-            <h2 className="project-h2">Projects</h2>
-            <div className="project-container">
-                {projects.map((project, index) => (
-                    <React.Fragment key={project.id}>
-                        <div className="content">
-                            <div className="photos"><img src={project.img} /></div>
-                            <div className="text-area">
-                                <div className="name">{project.name}</div>
-                                <div className="description">{project.description}</div>
-                                <div className="btn-area">
-                                    <button>react</button>
-                                    <button>redux</button>
-                                    <button>vercel</button>
+        <div className="projectsss">
+            <div className="container ">
+                <h2 className="project-h2">Projects</h2>
+                <div className="project-container">
+                    {projects.map((project, index) => (
+                        <React.Fragment key={project.id}>
+                            <div className="content">
+                                <div className="photos"><img src={project.img} /></div>
+                                <div className="text-area">
+                                    <div className="name">{project.name}</div>
+                                    <div className="description">{project.description}</div>
+                                    <div className="btn-area">
+                                        <button>react</button>
+                                        <button>redux</button>
+                                        <button>vercel</button>
+                                    </div>
+
+                                    <div className="nav-area">
+                                        <a href="#">View Site</a>
+                                        <a href="#">Github</a>
+                                    </div>
+
+
                                 </div>
 
-                                <div className="nav-area">
-                                    <a href="#">View Site</a>
-                                    <a href="#">Github</a>
-                                </div>
 
 
                             </div>
+                        </React.Fragment>
 
 
-
-                        </div>
-                    </React.Fragment>
-
-
-                ))}
+                    ))}
 
 
 
 
 
+                </div>
             </div>
+
             {/*  
             <div className="project-container">
                 <div className="project-photo">

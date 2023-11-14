@@ -8,12 +8,15 @@
  .footer-message {
      color: #4731D3;
      font-family: Inter;
-     font-size: 48px;
+     font-size: 40px;
      font-style: normal;
      font-weight: 700;
      line-height: 72px;
+     display: flex;
+     justify-content: center;
 
  }
+
 
  .footer-text {
      color: #120B39;

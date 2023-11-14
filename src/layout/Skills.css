@@ -17,6 +17,13 @@
     display: flex;
     align-items: center;
     column-gap: 24px;
+    color: #777;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+
+    text-transform: uppercase;
 }
 
 
@@ -47,7 +54,7 @@
 .skills {
     display: flex;
     justify-content: space-between;
-
+    background-color: white;
 
 }
 
@@ -56,19 +63,20 @@
 
     background-color: white;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 50px;
 }
 
 .skills-container h2 {
-    margin: 0;
     color: #4832D3;
+
     font-family: Inter;
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     letter-spacing: 0.48px;
+    margin: 0;
 }
 
 /* .skill {
